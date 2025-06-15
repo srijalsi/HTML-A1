@@ -1,0 +1,210 @@
+body {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.534), white);
+    margin: 0px;
+    overflow: scroll;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav {
+    background: linear-gradient(to bottom right, yellow, yellowgreen);
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 100000000;
+}
+
+.welcome {
+    width: 300px;
+    height: 150px;
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+    color: red;
+    border-radius: 10px;
+    background: linear-gradient(rgba(255, 255, 0, 0.39), yellowgreen);
+    word-spacing: 10px;
+    text-shadow: 2px 2px rgba(245, 245, 245, 0.632);
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: large;
+}
+
+.wel_main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+}
+
+.add {
+    width: 250px;
+    height: 150px;
+    /* box-shadow: -3px -2px 4px 5px yellow ;
+    border: 5px solid yellowgreen;
+    border-radius: 10px;
+    background-color: rgba(245, 222, 179, 0.866); */
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+    color: blueviolet;
+    border-radius: 10px;
+    background: linear-gradient(rgba(255, 255, 0, 0.39), yellowgreen);
+    word-spacing: 10px;
+    text-shadow: 2px 2px rgba(245, 245, 245, 0.632);
+
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: large;
+
+}
+
+.add_main {
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    left: 40px;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_image {
+    height: 250px;
+    width: 250px;
+    background-image: url(GeneralStore.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+    border-radius: 10px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px rgba(245, 245, 245, 0.632);
+
+    position: relative;
+    right: 80px;
+}
+
+.rating {
+    position: relative;
+    top: 150px;
+    left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visit {
+    height: 250px;
+    width: 300px;
+    background-color: rgba(245, 222, 179, 0.866);
+    box-shadow: -3px -2px 4px 5px yellow;
+    /* border: 5px solid yellowgreen; */
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+    background: linear-gradient(rgba(255, 255, 0, 0.39), yellowgreen);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: blueviolet;
+    text-shadow: 2px 2px violet;
+    font-size: large;
+
+}
+
+.form {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    /* top: 100px; */
+    right: 80px;
+    background-color: rgba(245, 222, 179, 0.866);
+    border-radius: 10px;
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+    background: linear-gradient(rgba(255, 255, 0, 0.39), yellowgreen);
+    text-align: center;
+    line-height: 30px;
+    color: blueviolet;
+    text-shadow: 2px 2px violet;
+    font-size: large;
+}
+
+.offer_main {
+
+    display: flex;
+    justify-content: center;
+    top: 550px;
+    left: 460px;
+}
+
+.offer {
+    height: 100px;
+    text-align: center;
+    width: 550px;
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+    background: linear-gradient(rgba(255, 255, 0, 0.39), yellowgreen);
+    background-color: rgba(245, 222, 179, 0.866);
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.items_main_main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+    top: 200px;
+    text-align: center;
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-main {
+    background: linear-gradient(rgba(255, 255, 0, 0.39), yellowgreen);
+    width: 900px;
+    height: 800px;
+    box-shadow: -3px -2px 4px 10px rgba(237, 21, 9, 0.694);
+
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.fruits, .vege {
+    /* padding: 20px; */
+    width: 400px;
+    height: 300px;
+    color: yellow;
+    background: linear-gradient(to bottom right, violet, blueviolet);
+    border-radius: 50px;
+    box-shadow: -3px -2px 4px 5px blueviolet;
+    margin: 20px;
+}
+
+.vege {
+    position: absolute;
+    top: 78px;
+    right: 170px;
+}
+
+.others_items {
+    position: relative;
+    left: 70px;
+    width: 700px;
+    height: 250px;
+    color: rgb(246, 3, 3);
+    color: yellow;
+    background: linear-gradient(to bottom right, violet, blueviolet);
+    border-radius: 50px;
+    box-shadow: -3px -2px 4px 5px blueviolet;
+    margin: 20px;
+}
